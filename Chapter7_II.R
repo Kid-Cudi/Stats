@@ -67,6 +67,7 @@ plot(Disk_data$Capacity..in.TB.,Disk_data$Price..in...,  #use auto complete here
 abline(regr, col="red")
 
 
+
 #b########
 
 
@@ -79,4 +80,14 @@ abline(regr, col="red")
 # When zero sales people are working, the bookstore makes about
 # $8100 in sales.  This might have meaning.  Perhaps the bookstore
 # is making sales online as well.
+
+#(D) -What would you predict for the price of a 3.0 TB drive?
+# 312$
+
+#(E) - You found a 3.0 TB  drive for 300$. Is this a good buy?
+# How much would you save compared to what you expected to buy?
+# A 3.0 TB drive for 300$ is a good buy. I would've saved 12$ 
+
+#(F)
+#s
 
