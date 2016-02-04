@@ -34,7 +34,7 @@
  
  #32 
  #A For every one foot the duration of the ride will increase by .180 secounds
- #B
+ #B 100.232 seconds
  
  
 duration <- function(Drop){
@@ -42,4 +42,24 @@ duration <- function(Drop){
 }
 
 estimate <- duration(200)
+ 
+#C This is shorter then I would expect, it is shorter by 28.768 secounds
+ 
+ duration <- function(Drop){
+   return(64.232+0.180*Drop)
+ }
+ 
+ estimate <- duration(150)
+ 
+ #41 
+ #nictoine-hat = .154030+.065052*tar
+ #B It would contain .414238 amount of nicotine
+ Cig<- function(TR) {
+   return(.154030 + .065052*TR)
+ }
+ 
+ estimate <- Cig(4)
+ #c For every 0.0655052 amount of tar it will contain .154030 amount of nicotine
+ 
+ #D
  
